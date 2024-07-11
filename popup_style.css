@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 200px;
+    height: min-content;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    background-color: rgb(6, 0, 28);
+}
+
+a {
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
