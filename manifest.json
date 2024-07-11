@@ -1,10 +1,16 @@
 {
     "manifest_version": 3,
     "name": "Anti Dox",
-    "description": "Hide sensetive details like names, adresses, and IP-adresses",
+    "description": "Hide sensetive details like names, adresses, and IP-adresses.\n\nThis just visually hides your details, this does not prevent tracking.",
     "version": "1.0",
     "action": {
         "default_popup": "popup.html",
         "default_icon": "anti_dox.png"
-    }
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["hide.js"]
+    }]
 }
